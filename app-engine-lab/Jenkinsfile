@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        PROJECT_ID = 'my-first-devops-project-444911'
+        PROJECT_ID = 'avian-principle-452805-i0'
         GOOGLE_APPLICATION_CREDENTIALS = credentials('gcp-service-account')  // Service account credential
     }
 
